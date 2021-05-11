@@ -13,3 +13,12 @@ Documentation Work In Progress
     Mac - `npm run package:mac`
     
 4. run the package - `./build/cowin-checker`
+
+
+# Screenshots
+**District Selection**
+![District Selection](/images/img1.jpeg "District Selection")
+**Output**
+![Output](/images/img2.jpeg "Output")
+
+**Once any center is available at your center, the checker would open a youtube video on the browser.**
