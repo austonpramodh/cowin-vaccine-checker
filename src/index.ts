@@ -27,10 +27,10 @@ async function checkForCentersLoop(district: string) {
 
         // filter all centers with age limit
         const centersWithAgeLimit = centers.filter(
-            (center) => center.sessions.filter((session) => session.min_age_limit <= ageLimit).length > 0,
+            (center) => center.sessions.filter((session) => session.min_age_limit == ageLimit).length > 0,
         );
 
-        console.log(`Number of Centers with minimum age limit of ${ageLimit} years: ${centers.length}`);
+        console.log(`Number of Centers with minimum age limit of ${ageLimit} years: ${centersWithAgeLimit.length}`);
 
         let vaccinesFound = false;
 
