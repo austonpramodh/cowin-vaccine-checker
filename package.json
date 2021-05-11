@@ -13,7 +13,9 @@
         "watch:ts": "tsc --incremental --watch",
         "watch:node": "nodemon",
         "debug": "cross-env NODE_ENV=development node --inspect dist",
-        "package": "pkg dist/index.js --targets node14-win-x64 --output build/cowin-checker"
+        "package:win": "pkg dist/index.js --targets node14-win-x64 --output build/cowin-checker",
+        "package:mac": "pkg dist/index.js --targets node14-macos-x64 --output build/cowin-checker",
+        "package:linux": "pkg dist/index.js --targets node14-linux-x64 --output build/cowin-checker"
     },
     "author": "Auston Pramodh Barboza <austonpramodh@gmail.com>",
     "repository": {

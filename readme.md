@@ -7,6 +7,9 @@ Documentation Work In Progress
 
 1. Install all the dependencies - `npm install`
 2. build the javascript files - `npm run build`
-3. change the package type in package script if required(https://github.com/vercel/pkg) 
-4. build the package - `npm run package`
-5. run the package - `./build/cowin-checker`
+3. build the package
+    Windows - `npm run package:win`
+    Linux - `npm run package:linux`
+    Mac - `npm run package:mac`
+    
+4. run the package - `./build/cowin-checker`

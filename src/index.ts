@@ -9,9 +9,12 @@ import { getDateDistrict } from "./getDataDistrict";
 // Variables
 
 const ageLimit = 18;
+let count = 0;
 
 async function checkForCentersLoop(district: string) {
     try {
+        count++;
+        console.log(`----------------Trial ${count}------------------`);
         const date = dayjs().format("DD-MM-YYYY");
         // eslint-disable-next-line @typescript-eslint/no-unused-vars
 
@@ -20,10 +23,14 @@ async function checkForCentersLoop(district: string) {
 
         const centers = response.centers;
 
+        console.log(`Total Centers found for selected district: ${centers.length}`);
+
         // filter all centers with age limit
         const centersWithAgeLimit = centers.filter(
             (center) => center.sessions.filter((session) => session.min_age_limit <= ageLimit).length > 0,
         );
+
+        console.log(`Number of Centers with minimum age limit of ${ageLimit} years: ${centers.length}`);
 
         let vaccinesFound = false;
 
@@ -55,12 +62,15 @@ async function checkForCentersLoop(district: string) {
             open(yturl);
         } else {
             //repeat the searching in 10 mins
-            console.log("Vaccines not found, searching again in 10mins.");
+            console.log("Vaccine centers with vaccine availability not found, searching again in 10mins.");
             setTimeout(() => checkForCentersLoop(district), 1000 * 60 * 10);
         }
+
+        console.log(`----------------Trial ${count}------------------`);
     } catch (error) {
         console.log("Failed with error::", error);
         // console.log("Failed with error::", error.data);
+        console.log("Searching again in 10mins.");
         setTimeout(() => checkForCentersLoop(district), 1000 * 60 * 10);
     }
 }
