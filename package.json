@@ -1,0 +1,70 @@
+{
+    "name": "covid-vaccine-checker",
+    "version": "0.0.1",
+    "description": "",
+    "main": "dist/index.js",
+    "scripts": {
+        "prestart": "npm run build",
+        "start": "cross-env NODE_ENV=production node dist",
+        "build": "tsc",
+        "dev": "cross-env NODE_ENV=development concurrently --kill-others \"npm run watch:ts\" \"npm run watch:node\"",
+        "test": "cross-env NODE_ENV=test jest",
+        "lint": "tsc --noEmit && eslint src --ext ts --ext js --quiet --fix",
+        "watch:ts": "tsc --incremental --watch",
+        "watch:node": "nodemon",
+        "debug": "cross-env NODE_ENV=development node --inspect dist",
+        "package": "pkg dist/index.js --targets node14-win-x64 --output build/cowin-checker"
+    },
+    "author": "Auston Pramodh Barboza <austonpramodh@gmail.com>",
+    "repository": {
+        "url": "https://github.com/austonpramodh/cowin-vaccine-checker",
+        "type": "git"
+    },
+    "bugs": {
+        "email": "austonpramodh@gmail.com",
+        "url": "https://github.com/austonpramodh/cowin-vaccine-checker/issues"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "cross-env": "^7.0.2",
+        "dayjs": "^1.10.4",
+        "envalid": "^6.0.1",
+        "inquirer": "^8.0.0",
+        "open": "^8.0.8",
+        "pkg": "^5.1.0"
+    },
+    "devDependencies": {
+        "@types/inquirer": "^7.3.1",
+        "@types/jest": "^26.0.0",
+        "@types/node": "^14.0.13",
+        "@typescript-eslint/eslint-plugin": "^3.3.0",
+        "@typescript-eslint/parser": "^3.3.0",
+        "concurrently": "^5.2.0",
+        "eslint": "^7.2.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-plugin-import": "^2.20.2",
+        "eslint-plugin-prettier": "^3.1.3",
+        "husky": "^4.2.5",
+        "jest": "^26.0.1",
+        "lint-staged": "^10.1.7",
+        "nodemon": "^2.0.3",
+        "prettier": "^2.0.5",
+        "ts-jest": "^26.1.0",
+        "typescript": "^3.8.3"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "tsc --noEmit && lint-staged"
+        }
+    },
+    "lint-staged": {
+        "*.{js,ts}": [
+            "eslint --fix",
+            "git add"
+        ]
+    },
+    "engines": {
+        "node": ">12.0.0"
+    }
+}
