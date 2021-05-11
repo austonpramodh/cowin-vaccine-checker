@@ -10,12 +10,12 @@ import { getDateDistrict } from "./getDataDistrict";
 
 const ageLimit = 18;
 
-async function main(): Promise<void> {
+async function checkForCentersLoop(district: string) {
     try {
         const date = dayjs().format("DD-MM-YYYY");
         // eslint-disable-next-line @typescript-eslint/no-unused-vars
-        const answers = await getDateDistrict();
-        const response = await getCenters(`${answers.district}`, date);
+
+        const response = await getCenters(district, date);
         // const response = data;
 
         const centers = response.centers;
@@ -56,13 +56,19 @@ async function main(): Promise<void> {
         } else {
             //repeat the searching in 10 mins
             console.log("Vaccines not found, searching again in 10mins.");
-            setTimeout(main, 1000 * 60 * 10);
+            setTimeout(() => checkForCentersLoop(district), 1000 * 60 * 10);
         }
     } catch (error) {
         console.log("Failed with error::", error);
         // console.log("Failed with error::", error.data);
-        setTimeout(main, 1000 * 60 * 10);
+        setTimeout(() => checkForCentersLoop(district), 1000 * 60 * 10);
     }
+}
+
+async function main(): Promise<void> {
+    const answers = await getDateDistrict();
+
+    checkForCentersLoop(`${answers.district}`);
 }
 
 main();
