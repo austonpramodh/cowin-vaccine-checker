@@ -1,6 +1,6 @@
 {
     "name": "covid-vaccine-checker",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "",
     "main": "dist/index.js",
     "scripts": {
@@ -35,7 +35,8 @@
         "envalid": "^6.0.1",
         "inquirer": "^8.0.0",
         "open": "^8.0.8",
-        "pkg": "^5.1.0"
+        "pkg": "^5.1.0",
+        "universal-analytics": "^0.4.23"
     },
     "devDependencies": {
         "@types/inquirer": "^7.3.1",

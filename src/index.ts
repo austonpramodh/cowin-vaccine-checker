@@ -1,6 +1,7 @@
 import open from "open";
 import dayjs from "dayjs";
 import chalk from "chalk";
+import ua from "universal-analytics";
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import data from "./data.json";
@@ -8,6 +9,7 @@ import data from "./data.json";
 import { getCenters } from "./getCenters";
 import { getDateDistrict } from "./getDataDistrict";
 // Variables
+const visitor = ua("UA-XXXXXXXX");
 
 const ageLimit = 18;
 let count = 0;
@@ -87,6 +89,8 @@ async function checkForCentersLoop(district: string): Promise<void> {
 }
 
 async function main(): Promise<void> {
+    visitor.event("package", "start").send();
+
     const answers = await getDateDistrict();
 
     checkForCentersLoop(`${answers.district}`);
@@ -94,3 +98,7 @@ async function main(): Promise<void> {
 }
 
 main();
+
+process.on("SIGINT", function () {
+    visitor.event("package", "exit").send();
+});
