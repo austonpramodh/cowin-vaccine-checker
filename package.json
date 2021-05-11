@@ -1,6 +1,6 @@
 {
     "name": "covid-vaccine-checker",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "",
     "main": "dist/index.js",
     "scripts": {
@@ -29,6 +29,7 @@
     "license": "ISC",
     "dependencies": {
         "axios": "^0.21.1",
+        "chalk": "^4.1.1",
         "cross-env": "^7.0.2",
         "dayjs": "^1.10.4",
         "envalid": "^6.0.1",

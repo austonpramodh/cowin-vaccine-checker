@@ -1,325 +1,6 @@
 {
   "centers": [
     {
-      "center_id": 370248,
-      "name": "Kemmannu PHC",
-      "address": "Kemmannu Hoode Road Paduthonse Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Udupi",
-      "pincode": 576115,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "a608fe30-3a85-478d-b9c4-70c19cc87da1",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 370322,
-      "name": "Saibrakatte PHC",
-      "address": "Brahmavara Bidkalkatte Road Yadthady Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Udupi",
-      "pincode": 576210,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "dc50c7d9-f990-4155-a588-07066f8c8a3a",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 370356,
-      "name": "BRS MCH Hospital",
-      "address": "Opposite To Old MCH Udupi",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Udupi",
-      "pincode": 576101,
-      "lat": 13,
-      "long": 74,
-      "from": "10:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "6d382c5f-d477-43dd-9a6c-5e7d3e0d776b",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 18,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "10:00AM-11:00AM",
-            "11:00AM-12:00PM",
-            "12:00PM-01:00PM",
-            "01:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 370180,
-      "name": "Karje PHC",
-      "address": "Kokkarne Sural Road Hosur Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Udupi",
-      "pincode": 576215,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "63a38a98-5563-40ff-a96a-15cfe940c5a6",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 370236,
-      "name": "Bailoor PHC",
-      "address": "Udupi Karkala Road Neere Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Karkala",
-      "pincode": 574102,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "33050285-7dfc-487a-96e8-75057d6bf970",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 563689,
-      "name": "ALOOR PRIMARY HEALTH CENTER",
-      "address": "Kattinmakki Aloor Road Aloor Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Kundapura",
-      "pincode": 576233,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "f522ee35-dd8e-4cb2-81ca-c4a62f00ec80",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 563696,
-      "name": "BASRUR PRIMARY HEALTH CENTER",
-      "address": "Syndicate Bank Basrur Road Basrur Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Kundapura",
-      "pincode": 576211,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "55201cfa-a9cc-4d93-a32d-ce628ebb8ac3",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 563934,
-      "name": "KORGI PRIMARY HEALTH CENTER",
-      "address": "KORGI PHC",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Kundapura",
-      "pincode": 576231,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "19bc1bce-807b-4360-b7af-68967fd6c188",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 370191,
-      "name": "Kukkikatte UFWC",
-      "address": "Diana Kukkikatte76 Badagubettu Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Udupi",
-      "pincode": 576101,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "150f0f98-b12e-4f82-987a-c67089fd8746",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 370211,
-      "name": "Padubidri PHC",
-      "address": "Brahmasthana Nadsal Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Udupi",
-      "pincode": 574111,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "bbabf033-fb91-4fc3-8e84-4978df01ade2",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 563288,
-      "name": "Kandlur Primary Health Centre",
-      "address": "Basrur Siddapura Road Kavrady Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Kundapura",
-      "pincode": 576211,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "25f16f70-f843-4101-a039-159e42e6ae23",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
       "center_id": 559758,
       "name": "GENERAL HOSPITAL KUNDAPURA",
       "address": "Near Parijatha Circle Kundapura",
@@ -334,8 +15,8 @@
       "fee_type": "Free",
       "sessions": [
         {
-          "session_id": "10beddf6-886c-4696-a5fe-44e0432f9e56",
-          "date": "11-05-2021",
+          "session_id": "7db1be1b-2fbe-43bd-ab59-6b04bf6bdeff",
+          "date": "12-05-2021",
           "available_capacity": 0,
           "min_age_limit": 18,
           "vaccine": "COVISHIELD",
@@ -345,237 +26,57 @@
             "12:00PM-01:00PM",
             "01:00PM-04:00PM"
           ]
-        }
-      ]
-    },
-    {
-      "center_id": 370330,
-      "name": "CHC BRAHMAVARA",
-      "address": "Udupi Kundapura Highway Varamballi Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Udupi",
-      "pincode": 576213,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
+        },
         {
-          "session_id": "9533aa60-4671-41d1-93f3-e93fb1fc937a",
-          "date": "11-05-2021",
+          "session_id": "d699e935-9937-48e0-87c0-09b0f406a8ed",
+          "date": "13-05-2021",
           "available_capacity": 0,
-          "min_age_limit": 45,
+          "min_age_limit": 18,
           "vaccine": "COVISHIELD",
           "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
           ]
-        }
-      ]
-    },
-    {
-      "center_id": 370085,
-      "name": "Shirva CHC",
-      "address": "Shankarapura Belman Road Manchakal Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Udupi",
-      "pincode": 574116,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
+        },
         {
-          "session_id": "89d4fcbb-a047-4596-b086-b53a9d234451",
-          "date": "11-05-2021",
+          "session_id": "15c51617-0710-48d1-b3cb-5dbec588bd8c",
+          "date": "14-05-2021",
           "available_capacity": 0,
-          "min_age_limit": 45,
+          "min_age_limit": 18,
           "vaccine": "COVISHIELD",
           "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
           ]
-        }
-      ]
-    },
-    {
-      "center_id": 587757,
-      "name": "Hirebettu PHC",
-      "address": "Aided Higher Primary School Road Hirebettu Hirebettu Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Udupi",
-      "pincode": 576107,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
+        },
         {
-          "session_id": "7deafdb2-8be0-4b72-943b-efd13c541644",
-          "date": "11-05-2021",
+          "session_id": "db6bc5c4-9e45-49de-b886-4c5301a9e059",
+          "date": "15-05-2021",
           "available_capacity": 0,
-          "min_age_limit": 45,
+          "min_age_limit": 18,
           "vaccine": "COVISHIELD",
           "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
           ]
-        }
-      ]
-    },
-    {
-      "center_id": 370199,
-      "name": "Mudarangadi PHC",
-      "address": "St Francis Xavier Church Road Santhoor Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Udupi",
-      "pincode": 574113,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
+        },
         {
-          "session_id": "f55ad821-39e8-4f28-9584-799dfd9c1656",
-          "date": "11-05-2021",
+          "session_id": "db185e4c-7da1-4765-8c90-e480b19b34b8",
+          "date": "16-05-2021",
           "available_capacity": 0,
-          "min_age_limit": 45,
+          "min_age_limit": 18,
           "vaccine": "COVISHIELD",
           "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 570424,
-      "name": "Malpe PHC",
-      "address": "Udupi Malpe Road",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Udupi",
-      "pincode": 576108,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "40f48144-602b-41d0-9e37-d1ccda2d1af5",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 370133,
-      "name": "Pethri PHC",
-      "address": "Hutthi Road Cherkady Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Udupi",
-      "pincode": 576215,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "6cc9da97-44b8-41ed-8220-ba8aef29572d",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 370165,
-      "name": "Hattiyangadi PHC",
-      "address": "Tallur Nerlakatte Road Udupi Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Kundapura",
-      "pincode": 576283,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "9fc6f7b3-e1a9-4783-b541-c9b9c1b7198b",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 370278,
-      "name": "Avarse PHC",
-      "address": "Mandarthi Goliyangadi Road Avarse Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Udupi",
-      "pincode": 576223,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "feff2543-737d-4524-befb-e7ae52a23175",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
           ]
         }
       ]
@@ -590,26 +91,13 @@
       "pincode": 574104,
       "lat": 0,
       "long": 0,
-      "from": "09:00:00",
+      "from": "10:00:00",
       "to": "16:00:00",
       "fee_type": "Free",
       "sessions": [
         {
-          "session_id": "a787b667-7ce7-4ae7-9a2b-8c14f1c4f9a7",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        },
-        {
-          "session_id": "7aabc155-76ad-45ba-8fa0-7cb8ceb1d08b",
-          "date": "11-05-2021",
+          "session_id": "dc79a8ec-e69d-4c38-8b1f-ed71c5d34252",
+          "date": "12-05-2021",
           "available_capacity": 0,
           "min_age_limit": 18,
           "vaccine": "COVISHIELD",
@@ -619,46 +107,69 @@
             "12:00PM-01:00PM",
             "01:00PM-04:00PM"
           ]
-        }
-      ]
-    },
-    {
-      "center_id": 564201,
-      "name": "SIDDAPURA PRIMARY HEALTHCENTER",
-      "address": "Shankarnarayana Kamalashile Temple Road Siddapura Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Kundapura",
-      "pincode": 576229,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
+        },
         {
-          "session_id": "88114d89-9d66-4886-9773-13420e46c53d",
-          "date": "11-05-2021",
+          "session_id": "6e9cffc6-9300-4b26-8044-a4c5fac47987",
+          "date": "13-05-2021",
           "available_capacity": 0,
-          "min_age_limit": 45,
+          "min_age_limit": 18,
           "vaccine": "COVISHIELD",
           "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ]
+        },
+        {
+          "session_id": "1cfb832c-2a79-4d1d-9128-e5fcfa05bb15",
+          "date": "14-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ]
+        },
+        {
+          "session_id": "4458b707-3034-4516-afa3-d75abaa9281b",
+          "date": "15-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
+          ]
+        },
+        {
+          "session_id": "6fbca399-a9cd-49b2-b7cc-57e71534966b",
+          "date": "16-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-10:00AM",
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM"
           ]
         }
       ]
     },
     {
-      "center_id": 370059,
-      "name": "Sasthana PHC",
-      "address": "Brahmavara Kundapura Highway Airody Village",
+      "center_id": 370356,
+      "name": "BRS MCH Hospital",
+      "address": "Opposite To Old MCH Udupi",
       "state_name": "Karnataka",
       "district_name": "Udupi",
       "block_name": "Udupi",
-      "pincode": 576226,
+      "pincode": 576101,
       "lat": 13,
       "long": 74,
       "from": "09:00:00",
@@ -666,10 +177,10 @@
       "fee_type": "Free",
       "sessions": [
         {
-          "session_id": "d3948fdf-ba96-40d9-9bcd-2686c13ce200",
-          "date": "11-05-2021",
+          "session_id": "ba93efb6-b951-4c19-898d-6002aa29fdf0",
+          "date": "12-05-2021",
           "available_capacity": 0,
-          "min_age_limit": 45,
+          "min_age_limit": 18,
           "vaccine": "COVISHIELD",
           "slots": [
             "09:00AM-11:00AM",
@@ -677,28 +188,12 @@
             "01:00PM-03:00PM",
             "03:00PM-04:00PM"
           ]
-        }
-      ]
-    },
-    {
-      "center_id": 370311,
-      "name": "Nitte CHC",
-      "address": "Belman Karkala Road Nitte Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Karkala",
-      "pincode": 574110,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
+        },
         {
-          "session_id": "4227732d-3ec8-4544-a072-933f112a305b",
-          "date": "11-05-2021",
+          "session_id": "1c9b46b2-c179-44fd-a22a-19a908548799",
+          "date": "13-05-2021",
           "available_capacity": 0,
-          "min_age_limit": 45,
+          "min_age_limit": 18,
           "vaccine": "COVISHIELD",
           "slots": [
             "09:00AM-11:00AM",
@@ -706,28 +201,25 @@
             "01:00PM-03:00PM",
             "03:00PM-04:00PM"
           ]
-        }
-      ]
-    },
-    {
-      "center_id": 370136,
-      "name": "Sacheripete PHC",
-      "address": "Sacheripete 5 Cents Road Mundkuru Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Karkala",
-      "pincode": 576121,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
+        },
         {
-          "session_id": "4ce244e2-4f1d-4612-9ec0-f5de21101910",
-          "date": "11-05-2021",
+          "session_id": "77f4c322-53ca-4405-a045-4d3aadb74fb4",
+          "date": "14-05-2021",
           "available_capacity": 0,
-          "min_age_limit": 45,
+          "min_age_limit": 18,
+          "vaccine": "COVISHIELD",
+          "slots": [
+            "09:00AM-10:00AM",
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM"
+          ]
+        },
+        {
+          "session_id": "a6bfcc32-7750-4b89-8435-6d177b9efe81",
+          "date": "15-05-2021",
+          "available_capacity": 0,
+          "min_age_limit": 18,
           "vaccine": "COVISHIELD",
           "slots": [
             "09:00AM-11:00AM",
@@ -735,266 +227,18 @@
             "01:00PM-03:00PM",
             "03:00PM-04:00PM"
           ]
-        }
-      ]
-    },
-    {
-      "center_id": 563701,
-      "name": "BYNDOOR C H C",
-      "address": "Yadthare Road Opposite To Government Junior College",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Kundapura",
-      "pincode": 576214,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
+        },
         {
-          "session_id": "2fe1945a-c7d9-4eae-964a-d3d575822685",
-          "date": "11-05-2021",
+          "session_id": "d02631db-d451-48e4-959a-9017a792de62",
+          "date": "16-05-2021",
           "available_capacity": 0,
-          "min_age_limit": 45,
+          "min_age_limit": 18,
           "vaccine": "COVISHIELD",
           "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 370158,
-      "name": "Kolalagiri PHC",
-      "address": "Kukkehalli Uppoor Road Uppoor Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Udupi",
-      "pincode": 576105,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "f0179404-78fd-4599-bd99-f5d354492ed6",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 370161,
-      "name": "Mandarthi PHC",
-      "address": "Brahmavara Goliyangadi Road Heggunje Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Udupi",
-      "pincode": 576223,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "048d73f6-22be-4f5e-aa62-79f9656f0608",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 563713,
-      "name": "BIDKALKATTE P H C",
-      "address": "Primary Health Centre Bidkalkatte Kundapura",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Kundapura",
-      "pincode": 576222,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "90165ce6-7e81-4e0f-a537-84d7b1026777",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 370099,
-      "name": "Hiriyadka PHC",
-      "address": "Udupi Hebri Road Bommarabettu Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Udupi",
-      "pincode": 576113,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "1848b07d-b4fc-4446-a02e-77c940e041d0",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 370081,
-      "name": "Bajagoli PHC",
-      "address": "Dharmasthala Karkala Road Mudar Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Karkala",
-      "pincode": 574122,
-      "lat": 13,
-      "long": 75,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "7f1fb1aa-45dd-4ce8-84a9-9c7c161e52bd",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 591284,
-      "name": "Maravanthe P H C",
-      "address": "Kundapura Byndoor Highway Maravanthe Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Kundapura",
-      "pincode": 576224,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "be4a5e05-2e3e-4800-8920-0d406fb69845",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 370238,
-      "name": "Bailoor PHC C",
-      "address": "Udupi Karkala Road Neere Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Karkala",
-      "pincode": 574102,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "41c2956d-28ed-4a65-9b3d-0c484411fd9a",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVAXIN",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 563725,
-      "name": "GANGOLLI PRIMARY HEALTH CENTER",
-      "address": "Car Street Gangolli Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Kundapura",
-      "pincode": 576216,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "b7226848-e2f1-471b-b8c5-698845d3643a",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
+            "09:00AM-10:00AM",
+            "10:00AM-11:00AM",
+            "11:00AM-12:00PM",
+            "12:00PM-01:00PM"
           ]
         }
       ]
@@ -1014,8 +258,8 @@
       "fee_type": "Free",
       "sessions": [
         {
-          "session_id": "66e0e2ed-7577-4aa1-8b2b-78ad22acc66e",
-          "date": "11-05-2021",
+          "session_id": "992b7ed1-8a1c-4d8d-b386-e875e18e1d97",
+          "date": "12-05-2021",
           "available_capacity": 0,
           "min_age_limit": 18,
           "vaccine": "COVISHIELD",
@@ -1027,509 +271,16 @@
           ]
         },
         {
-          "session_id": "ca288832-775a-4fcd-98fb-9acdd4e84585",
-          "date": "11-05-2021",
+          "session_id": "ae218637-d3fb-4880-a1c6-d8982df51e13",
+          "date": "13-05-2021",
           "available_capacity": 0,
-          "min_age_limit": 45,
+          "min_age_limit": 18,
           "vaccine": "COVISHIELD",
           "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 370241,
-      "name": "Hirgana PHC",
-      "address": "5 Cents Road, Rajeevanagara, Hirgana Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Karkala",
-      "pincode": 576117,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "937f9335-b560-4638-b982-b3b518b6b74c",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 370205,
-      "name": "Kokkarne PHC",
-      "address": "Barkur Karje Road Kokkarne Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Udupi",
-      "pincode": 576234,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "e57e66f9-3d6c-41c1-8db2-c62414f740a7",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 370149,
-      "name": "Kaup PHC",
-      "address": "Main Road Near Kaup Mosque Uliyargoli Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Udupi",
-      "pincode": 574106,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "11a87568-a0d6-4995-934d-c5d3364c5079",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 563736,
-      "name": "HAKLADY PRIMARY HEALTH CENTER",
-      "address": "PHC HAKLADI",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Kundapura",
-      "pincode": 576235,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "dd047f26-0111-4697-99c8-52050a99ac07",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 370039,
-      "name": "Kodibengre PHC",
-      "address": "Hoode Kodibengre Road Kodi Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Udupi",
-      "pincode": 576218,
-      "lat": 0,
-      "long": 0,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "f327ad5b-7144-44b7-b371-3def07b426b6",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 563711,
-      "name": "Udupi UPHC Building",
-      "address": "Zilla Panchayath Quarters Near Old DC Office Vishweshwarayya Road",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Udupi",
-      "pincode": 576101,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "1d448a21-6d1c-45cc-9ff7-48d8ff140978",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 370357,
-      "name": "Peranankila PHC",
-      "address": "Padubettu Chitrabailu Road Pernankila Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Udupi",
-      "pincode": 576113,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "9a989257-6dce-45c0-bf9d-2f7e0676c42e",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 371407,
-      "name": "Idu PHC",
-      "address": "Hosmar Dharmasthala Road Idu Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Karkala",
-      "pincode": 574107,
-      "lat": 13,
-      "long": 75,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "a4e6ca69-768d-4489-8bc9-723725d6c2b3",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 563930,
-      "name": "KODI PRIMARY HEALTH CENTER",
-      "address": "Kodi Beach Road Kodi Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Kundapura",
-      "pincode": 576217,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "ae76f4e1-4578-4902-a5a3-38a460ddb656",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 370216,
-      "name": "Kukkehalli PHC",
-      "address": "Perdoor Kolalagiri RoadKukkehalli Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Udupi",
-      "pincode": 576124,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "13ac833f-b145-49e5-94c2-90c911922199",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 370069,
-      "name": "Hebri CHC",
-      "address": "Hiriyadka Hebri Road Hebri Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Karkala",
-      "pincode": 576112,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "b0f23b61-b849-4cd5-8a1e-8f48cf27d356",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 564135,
-      "name": "SHANKARNARAYANA PHC",
-      "address": "Bidkalkatte Siddapura Road Shankarnarayana Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Kundapura",
-      "pincode": 576227,
-      "lat": 0,
-      "long": 0,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "59415891-ad3f-4d90-97c6-787e300d9dcc",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 370116,
-      "name": "Irvathur PHC",
-      "address": "Sanoor Renjala Road Irvathur Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Karkala",
-      "pincode": 574114,
-      "lat": 13,
-      "long": 75,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "1139afad-6068-4d7b-b438-8009cdfd734a",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 370108,
-      "name": "Manipal UPHC",
-      "address": "Venugopal Temple Road Badagubettu Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Udupi",
-      "pincode": 576104,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "13:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "0f8a9746-66ce-4a9f-8b58-be4fef9e5ab7",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-10:00AM",
             "10:00AM-11:00AM",
             "11:00AM-12:00PM",
-            "12:00PM-01:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 370091,
-      "name": "Moodabettu PHC",
-      "address": "Sarkarigudde Road Subash NagarMoodabettu Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Udupi",
-      "pincode": 574115,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "093d9762-90c8-4a7d-a3d6-0c851d3b0651",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 370258,
-      "name": "Kota Community Health Centre",
-      "address": "Kota Police Station Road Giliyar Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Udupi",
-      "pincode": 576221,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "7995cde4-d740-4205-9391-1a54aafdd7ac",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
-          ]
-        }
-      ]
-    },
-    {
-      "center_id": 564238,
-      "name": "VANDSE PRIMARY HEALTH CENTER",
-      "address": "Kundapura Kollur Road Vandse Village",
-      "state_name": "Karnataka",
-      "district_name": "Udupi",
-      "block_name": "Kundapura",
-      "pincode": 576233,
-      "lat": 13,
-      "long": 74,
-      "from": "09:00:00",
-      "to": "16:00:00",
-      "fee_type": "Free",
-      "sessions": [
-        {
-          "session_id": "70f3e120-635d-46ef-8834-6a224838ef1c",
-          "date": "11-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 45,
-          "vaccine": "COVISHIELD",
-          "slots": [
-            "09:00AM-11:00AM",
-            "11:00AM-01:00PM",
-            "01:00PM-03:00PM",
-            "03:00PM-04:00PM"
+            "12:00PM-01:00PM",
+            "01:00PM-04:00PM"
           ]
         }
       ]
