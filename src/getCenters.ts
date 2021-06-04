@@ -1,6 +1,6 @@
 import axios from "axios";
 
-interface CentersAvailabilityResponse {
+export interface CentersAvailabilityResponse {
     centers: {
         center_id: number;
         name: string;
@@ -21,6 +21,8 @@ interface CentersAvailabilityResponse {
             min_age_limit: number;
             vaccine: "COVISHIELD" | "COVAXIN";
             slots: string[]; //"09:00AM-11:00AM"
+            available_capacity_dose1: number;
+            available_capacity_dose2: number;
         }[];
     }[];
 }

@@ -2,9 +2,23 @@ import inquirer from "inquirer";
 
 import { districts } from "./data.json";
 
-export async function getDateDistrict(): Promise<{
+interface Answers {
     district: number;
-}> {
+}
+
+export async function getDateDistrict(): Promise<Answers> {
+    const envDistrictId = process.env.DISTRICT_ID;
+
+    if (envDistrictId) {
+        for (const district of districts) {
+            if (district.split(" ")[0] === envDistrictId) {
+                return {
+                    district: parseInt(envDistrictId),
+                };
+            }
+        }
+    }
+
     const answers = await inquirer.prompt([
         {
             type: "list",

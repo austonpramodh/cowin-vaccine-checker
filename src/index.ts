@@ -6,7 +6,7 @@ import ua from "universal-analytics";
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import data from "./data.json";
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { getCenters } from "./getCenters";
+import { CentersAvailabilityResponse, getCenters } from "./getCenters";
 import { getDateDistrict } from "./getDataDistrict";
 // Variables
 const visitor = ua("UA-XXXXXXXX");
@@ -28,9 +28,21 @@ async function checkForCentersLoop(district: string): Promise<void> {
         console.log(chalk.white(`Total Centers found for selected district: ${centers.length}`));
 
         // filter all centers with age limit
-        const centersWithAgeLimit = centers.filter(
-            (center) => center.sessions.filter((session) => session.min_age_limit == ageLimit).length > 0,
-        );
+        // const centersWithAgeLimit = centers.filter(
+        //     (center) => center.sessions.filter((session) => session.min_age_limit == ageLimit).length > 0,
+        // );
+
+        const centersWithAgeLimit = centers.reduce((prevValue, currentValue) => {
+            // get all the sessions from current value
+            const sessions = currentValue.sessions;
+
+            // filtr all the sessions with agelimit above 18
+            currentValue.sessions = sessions.filter((session) => session.min_age_limit == ageLimit);
+
+            if (currentValue.sessions.length > 0) prevValue.push(currentValue);
+
+            return prevValue;
+        }, [] as CentersAvailabilityResponse["centers"]);
 
         console.log(
             chalk.white(`Number of Centers with minimum age limit of ${ageLimit} years: ${centersWithAgeLimit.length}`),
@@ -53,13 +65,15 @@ async function checkForCentersLoop(district: string): Promise<void> {
                     if (!isHeaderPrinted) {
                         isHeaderPrinted = true;
                         console.log(
-                            chalk.greenBright(
-                                `--- Name = ${center.name}, Block = ${center.block_name}; Pincode = ${center.pincode} ---`,
+                            chalk.whiteBright(
+                                `--- Name = ${center.name}, Block = ${center.block_name}; Pincode = ${center.pincode}; Dose1 = ${session.available_capacity_dose1}; Dose2 = ${session.available_capacity_dose2}; Vaccine = ${session.vaccine} ---`,
                             ),
                         );
                     }
                     // print session available
-                    console.log(chalk.greenBright(`Date = ${session.date}; Capacity = ${session.available_capacity}`));
+                    console.log(
+                        chalk.magentaBright(`Date = ${session.date}; Capacity = ${session.available_capacity}`),
+                    );
                     // console.log("--------------------------------------");
                     vaccinesFound = true;
                 }
@@ -70,7 +84,7 @@ async function checkForCentersLoop(district: string): Promise<void> {
             //open a music video on browser
             const yturl = "https://www.youtube.com/watch?v=H7HmzwI67ec&ab_channel=OwlCityVEVO";
 
-            open(yturl);
+            if (process.env.NOTIFY !== "false") open(yturl);
         } else {
             //repeat the searching in 10 mins
             console.log(

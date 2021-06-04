@@ -17,8 +17,8 @@
         {
           "session_id": "7db1be1b-2fbe-43bd-ab59-6b04bf6bdeff",
           "date": "12-05-2021",
-          "available_capacity": 0,
-          "min_age_limit": 18,
+          "available_capacity": 30,
+          "min_age_limit": 45,
           "vaccine": "COVISHIELD",
           "slots": [
             "10:00AM-11:00AM",
