@@ -28,7 +28,7 @@ export interface CentersAvailabilityResponse {
 }
 
 export async function getCenters(districtId: string, date: string): Promise<CentersAvailabilityResponse> {
-    const url = `https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id=${districtId}&date=${date}`;
+    const url = `https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id=${districtId}&date=${date}&cb=${Date.now()}`;
 
     const res = await axios.get<CentersAvailabilityResponse>(url, {
         headers: {
